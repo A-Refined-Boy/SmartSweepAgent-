@@ -53,12 +53,6 @@ SmartSweepAgent/
 ├── logs/ # 日志文件
 ├── app.py # Streamlit 界面
 └── requirements.txt # 依赖清单
-🔄 中间件功能
-monitor_tool：工具调用监控与日志
-
-log_before_model：模型调用前日志
-
-report_prompt_switch：动态切换提示词模式
 
 📊 使用示例
 ①普通对话模式
