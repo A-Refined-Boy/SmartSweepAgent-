@@ -1,0 +1,25 @@
+#向量数据库的表名
+collection_name: agent
+#向量数据库的存放文件夹
+persist_directory: chroma_db
+
+#数据所在的文件夹
+data_path: data
+#从数据文件夹中挑选文件读取加入向量数据库中，挑选的文件类型
+allow_knowledge_file_type: ["txt","pdf"]
+
+#md5值存放的文件
+md5_hex_store: md5.text
+
+#设置分割器
+#每段的最大字数
+chunk_size: 200
+#段与段之间可以重复的最大字数
+chunk_overlap: 20
+#分隔符
+separators: ["\n\n","\n",".","!","?","。","，","！","？"]
+##设置统计字数的函数
+#length_function: len
+
+#检索返回的句子个数
+k: 3

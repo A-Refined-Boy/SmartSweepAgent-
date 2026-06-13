@@ -1,0 +1,8 @@
+#存放主提示词的文件路径
+main_prompt_path: prompts/main_prompt.txt
+
+#存放RAG总结提示词的文件路径
+rag_summarize_prompt_path: prompts/rag_summarize.txt
+
+#存放生成报告提示词的文件路径
+report_prompt_path: prompts/report_prompt.txt
